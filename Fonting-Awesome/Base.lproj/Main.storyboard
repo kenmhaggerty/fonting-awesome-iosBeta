@@ -22,7 +22,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ikN-Mz-zGw"/>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SXR-ZN-iOS"/>
+                                    <action selector="buttonReleased:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WTw-U8-eNR"/>
+                                    <action selector="buttonReleased:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="eMJ-cF-UQm"/>
+                                    <action selector="buttonTouched:" destination="BYZ-38-t0r" eventType="touchDown" id="4Gl-Yc-NMj"/>
                                 </connections>
                             </button>
                         </subviews>

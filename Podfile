@@ -6,6 +6,7 @@
 target 'Fonting-Awesome' do
 
 pod 'FontAwesomeKit', '~> 2.2.0'
+pod 'CWStatusBarNotification'
 
 end
 
